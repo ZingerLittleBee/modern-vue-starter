@@ -4,7 +4,8 @@ module.exports = {
         'stylelint-config-standard',
         'stylelint-config-recess-order',
         'stylelint-config-prettier',
-        'stylelint-prettier/recommended'
+        'stylelint-prettier/recommended',
+        'stylelint-config-recommended-vue'
     ],
     rules: {
         'prettier/prettier': true,
