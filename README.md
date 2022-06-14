@@ -1,16 +1,92 @@
-# Vue 3 + TypeScript + Vite
+Language : 🇺🇸 English | 🇨🇳 [简体中文](./README.zh-CN.md)
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+<h1 align="center">modern-vue-starter</h1>
+<div align="center">
+</div>
 
-## Recommended IDE Setup
+<style>
+h1 {
+    font-weight: 900;
+    font-style: italic;
+    background: linear-gradient(to right, #4ade80, #3b82f6);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+</style>
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar)
+## Overview
+`modern-vue-starter` is a modern Vue engineering template
 
-## Type Support For `.vue` Imports in TS
+## Features
+- Fast (`Vite`)
+- Small (`Rollup`, `Cssnano`)
+- Standardize (`Eslint`, `Stylelint`, `Commitlint`)
+- Automation (`Prettier`, `Husky`)
+- Thousands of icons support (`Unplugin-Icons`, `Iconify`)
+- Unit test (`Vitest`)
+- CI/CD (`Github Action`)
 
-Since TypeScript cannot handle type information for `.vue` imports, they are shimmed to be a generic Vue component type by default. In most cases this is fine if you don't really care about component prop types outside of templates. However, if you wish to get actual prop types in `.vue` imports (for example to get props validation when using manual `h(...)` calls), you can enable Volar's Take Over mode by following these steps:
+## Prerequisites
+- `Node.js` (>= 14 required, LTS preferred)
 
-1. Run `Extensions: Show Built-in Extensions` from VS Code's command palette, look for `TypeScript and JavaScript Language Features`, then right click and select `Disable (Workspace)`. By default, Take Over mode will enable itself if the default TypeScript extension is disabled.
-2. Reload the VS Code window by running `Developer: Reload Window` from the command palette.
+- `npm` (>= 6.x) or `yarn` (>= 1.22) or `pnpm` (preferred)
 
-You can learn more about Take Over mode [here](https://github.com/johnsoncodehk/volar/discussions/471).
+- `Git` (>= 2.0)
+
+## Modules
+`dependencies`
+- vue 3
+
+`devDependencies`
+- `typescript`
+- `vite` (Bundless build tools)
+- `tailwindcss` (Atomic CSS)
+- `unplugin-icons` (icons plugin)
+- `vitest` (Vite unit test)
+- `eslint` (Grammar lint)
+- `prettier` (Code style check and repair)
+- `lint-staged` (Staged files lint)
+- `stylelint` (CSS lint)
+- `husky` (Git hooks)
+- `commitlint` (Commit lint)
+
+## How to use
+```bash
+git clone https://github.com/ZingerLittleBee/modern-vue-starter.git my-project
+cd my-project
+pnpm i
+```
+
+### Import icon
+Find icon what you want in [iconify](https://icon-sets.iconify.design/)
+```typescript
+// such as `mdi:ab-testing`
+import TestIcon from '~icons/mdi/ab-testing'
+```
+[Read More](https://github.com/antfu/unplugin-icons)
+
+### VSCode Settings
+```js
+// Unknown at rule, https://github.com/microsoft/vscode/issues/103163
+css.lint.unknownAtRules: ignore
+```
+
+### Commit
+```bash
+pnpm cz
+```
+
+## Recommended Use (But not introduced)
+- [daisyUI]([daisyui](https://github.com/saadeghi/daisyui))
+  - Beautiful `tailwindcss` component library
+- [axios](https://axios-http.com/)
+  - Http request library
+- [pinia](https://pinia.vuejs.org/)
+  - Official store library, in fact Vuex 5
+- [Vue Router](https://router.vuejs.org/zh/)
+  - Official route
+- [vueuse](https://vueuse.org/)
+  - Vue hooks
+- [babel-plugin-jsx](https://github.com/vuejs/babel-plugin-jsx)
+  - Use JSX/TSX in Vue 3
