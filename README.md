@@ -6,17 +6,6 @@ Language : 🇺🇸 English | 🇨🇳 [简体中文](./README.zh-CN.md)
 <div align="center">
 </div>
 
-<style>
-h1 {
-    font-weight: 900;
-    font-style: italic;
-    background: linear-gradient(to right, #4ade80, #3b82f6);
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
-}
-</style>
-
 ## Overview
 `modern-vue-starter` is a modern Vue engineering template
 
