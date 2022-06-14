@@ -1,8 +1,8 @@
 import viteStylelint from '@amatlash/vite-plugin-stylelint'
 import vue from '@vitejs/plugin-vue'
 import { resolve } from 'path'
-import { defineConfig } from 'vite'
 import viteEslint from 'vite-plugin-eslint'
+import { defineConfig } from 'vitest/config'
 
 // https://vitejs.dev/config/
 export default defineConfig({
@@ -20,5 +20,8 @@ export default defineConfig({
                 replacement: resolve(__dirname, './src')
             }
         ]
+    },
+    test: {
+        environment: 'jsdom'
     }
 })

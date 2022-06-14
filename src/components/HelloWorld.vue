@@ -2,51 +2,31 @@
 import { ref } from 'vue'
 
 defineProps<{ msg: string }>()
-
 const count = ref(0)
 </script>
 
 <template>
-  <h1>{{ msg }}</h1>
+    <div class="hw-container">
+        <div
+            class="mb-10 text-6xl font-black italic text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500"
+        >
+            {{ msg }}
+        </div>
 
-  <p>
-    Recommended IDE setup:
-    <a href="https://code.visualstudio.com/" target="_blank">VS Code</a>
-    +
-    <a href="https://github.com/johnsoncodehk/volar" target="_blank">Volar</a>
-  </p>
-
-  <p>See <code>README.md</code> for more information.</p>
-
-  <p>
-    <a href="https://vitejs.dev/guide/features.html" target="_blank">
-      Vite Docs
-    </a>
-    |
-    <a href="https://v3.vuejs.org/" target="_blank">Vue 3 Docs</a>
-  </p>
-
-  <button type="button" @click="count++">count is: {{ count }}</button>
-  <p>
-    Edit
-    <code>components/HelloWorld.vue</code> to test hot module replacement.
-  </p>
+        <p>
+            <span>current count: </span>
+            <span class="underline decoration-sky-500">{{ count }}</span>
+        </p>
+        <button class="btn" @click="() => count++">Click Me</button>
+    </div>
 </template>
 
 <style scoped>
-a {
-  color: #42b983;
+.hw-container {
+    @apply h-screen w-screen flex flex-col justify-center items-center space-y-4;
 }
 
-label {
-  margin: 0 0.5em;
-  font-weight: bold;
-}
-
-code {
-  background-color: #eee;
-  padding: 2px 4px;
-  border-radius: 4px;
-  color: #304455;
+.btn {
+    @apply py-2 px-4 rounded text-white bg-violet-500 hover:bg-violet-600 active:bg-violet-700 focus:outline-none focus:ring focus:ring-violet-300;
 }
 </style>
