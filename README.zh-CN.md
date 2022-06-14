@@ -1,19 +1,10 @@
 Language : [🇺🇸 English](./README.md) | 🇨🇳 简体中文
 
-<h1 align="center">modern-vue-starter</h1>
+<h1 align="center">
+  <img src="header.svg" width="400" height="200"></img>
+</h1>
 <div align="center">
 </div>
-
-<style>
-h1 {
-    font-weight: 900;
-    font-style: italic;
-    background: linear-gradient(to right, #4ade80, #3b82f6);
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
-}
-</style>
 
 ## 简介
 `modern-vue-starter` 是一个现代化的 vue 工程模版
@@ -78,7 +69,7 @@ pnpm cz
 ```
 
 ## 推荐使用 (但并未引入)
-- [daisyUI]([daisyui](https://github.com/saadeghi/daisyui))
+- [daisyUI](https://github.com/saadeghi/daisyui)
   - 超好看的 `tailwindcss` 组件库
 - [axios](https://axios-http.com/)
   - HTTP 请求库

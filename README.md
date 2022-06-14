@@ -1,6 +1,8 @@
 Language : 🇺🇸 English | 🇨🇳 [简体中文](./README.zh-CN.md)
 
-<h1 align="center">modern-vue-starter</h1>
+<h1 align="center">
+  <img src="header.svg" width="400" height="200"></img>
+</h1>
 <div align="center">
 </div>
 
@@ -78,7 +80,7 @@ pnpm cz
 ```
 
 ## Recommended Use (But not introduced)
-- [daisyUI]([daisyui](https://github.com/saadeghi/daisyui))
+- [daisyUI](https://github.com/saadeghi/daisyui)
   - Beautiful `tailwindcss` component library
 - [axios](https://axios-http.com/)
   - Http request library
