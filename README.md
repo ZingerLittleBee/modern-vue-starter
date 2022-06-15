@@ -4,6 +4,11 @@ Language : 🇺🇸 English | 🇨🇳 [简体中文](./README.zh-CN.md)
   <img src="header.svg" width="400" height="200"></img>
 </h1>
 <div align="center">
+
+  ![prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)
+  [![GitHub Actions CI](https://img.shields.io/github/workflow/status/ZingerLittleBee/modern-vue-starter/Test%20CI?style=flat-square)](https://github.com/ZingerLittleBee/modern-vue-starter/actions)
+  ![License](https://img.shields.io/github/license/ZingerLittleBee/modern-vue-starter?style=flat-square)
+
 </div>
 
 ## Overview
