@@ -29,3 +29,8 @@ dist-ssr
 
 # Test
 coverage
+
+# Package-lock
+package-lock.json
+pnpm-lock.json
+yarn-lock.json
