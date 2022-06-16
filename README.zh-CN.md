@@ -84,5 +84,5 @@ pnpm cz
   - 官方路由
 - [vueuse](https://vueuse.org/)
   - Vue hooks
-- [babel-plugin-jsx](https://github.com/vuejs/babel-plugin-jsx)
-  - 在 Vue 3 中使用 `JSX/TSX`
+- [@vitejs/plugin-vue-jsx](https://github.com/vitejs/vite/tree/main/packages/plugin-vue-jsx)
+  - 在 Vue 3 中使用 `JSX/TSX`, 支持热更新

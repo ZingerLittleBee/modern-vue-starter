@@ -84,5 +84,5 @@ pnpm cz
   - Official route
 - [vueuse](https://vueuse.org/)
   - Vue hooks
-- [babel-plugin-jsx](https://github.com/vuejs/babel-plugin-jsx)
-  - Use JSX/TSX in Vue 3
+- [@vitejs/plugin-vue-jsx](https://github.com/vitejs/vite/tree/main/packages/plugin-vue-jsx)
+  - Provides Vue 3 JSX & TSX support with HMR
