@@ -3,6 +3,12 @@ name: Test CI
 on:
     push:
         branches: ['main']
+        paths-ignore:
+            - '**/*.md'
+            - LICENSE
+            - '**/*ignore'
+            - .editorconfig
+            - docs/**
     pull_request:
         branches: ['main']
 
