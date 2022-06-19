@@ -54,7 +54,7 @@
     "vite": "2.9.12",
     "vite-plugin-eslint": "1.6.1",
     "vitest": "0.15.1",
-    "vue-tsc": "0.38.0"
+    "vue-tsc": "0.38.1"
   },
   "lint-staged": {
     "**/*.{js,jsx,tsx,ts}": [
