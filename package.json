@@ -54,7 +54,7 @@
     "unplugin-icons": "0.14.5",
     "vite": "2.9.12",
     "vite-plugin-eslint": "1.6.1",
-    "vitest": "0.15.2",
+    "vitest": "0.16.0",
     "vue-tsc": "0.38.1"
   },
   "config": {
