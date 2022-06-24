@@ -25,6 +25,10 @@ export default defineConfig({
         ]
     },
     test: {
-        environment: 'jsdom'
+        environment: 'jsdom',
+        // https://github.com/vitest-dev/vitest/issues/369
+        transformMode: {
+            web: [/\.[jt]sx$/]
+        }
     }
 })

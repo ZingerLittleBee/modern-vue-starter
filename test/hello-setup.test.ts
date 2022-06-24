@@ -1,18 +1,14 @@
 import { mount } from '@vue/test-utils'
 import { expect, test } from 'vitest'
-import HelloWorld from '../src/components/HelloWorld.vue'
+import HelloSetup from '../src/components/HelloSetup/index.vue'
 
 // @vitest-environment jsdom
-test('mount hello world component', async () => {
-    expect(HelloWorld).toBeTruthy()
+test('mount hello jsx component', async () => {
+    expect(HelloSetup).toBeTruthy()
 
-    const wrapper = mount(HelloWorld, {
-        props: {
-            msg: 'test-modern-vue-starter'
-        }
-    })
+    const wrapper = mount(HelloSetup)
 
-    expect(wrapper.text()).toContain('test-modern-vue-starter')
+    expect(wrapper.text()).toContain('Hello Setup')
     // https://vitest.dev/guide/snapshot.html
     expect(wrapper.html()).toMatchSnapshot()
 
