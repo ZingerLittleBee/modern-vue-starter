@@ -4,6 +4,7 @@
     "paths": {
       "@/*": ["./src/*"]
     },
+    "types": ["unplugin-icons/types/vue"],
     "useDefineForClassFields": true,
     "module": "esnext",
     "moduleResolution": "node",

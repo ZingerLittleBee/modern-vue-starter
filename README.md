@@ -46,6 +46,7 @@ Language : 🇺🇸 English | 🇨🇳 [简体中文](./README.zh-CN.md)
 - `stylelint` (CSS lint)
 - `husky` (Git hooks)
 - `commitlint` (Commit lint)
+- `@vitejs/plugin-vue-jsx` (Support JSX/TSX)
 
 ## How to use
 ```bash
@@ -84,5 +85,3 @@ pnpm cz
   - Official route
 - [vueuse](https://vueuse.org/)
   - Vue hooks
-- [@vitejs/plugin-vue-jsx](https://github.com/vitejs/vite/tree/main/packages/plugin-vue-jsx)
-  - Provides Vue 3 JSX & TSX support with HMR

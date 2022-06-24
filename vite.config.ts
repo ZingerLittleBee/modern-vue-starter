@@ -1,16 +1,19 @@
-import viteStylelint from '@amatlash/vite-plugin-stylelint'
 import vue from '@vitejs/plugin-vue'
-import { resolve } from 'path'
+import vueJsx from '@vitejs/plugin-vue-jsx'
 import viteEslint from 'vite-plugin-eslint'
+import viteStylelint from '@amatlash/vite-plugin-stylelint'
 import { defineConfig } from 'vitest/config'
+import Icons from 'unplugin-icons/vite'
+import { resolve } from 'path'
 
-// https://vitejs.dev/config/
 export default defineConfig({
     plugins: [
         vue(),
+        Icons({}),
+        vueJsx({}),
         viteEslint(),
         viteStylelint({
-            exclude: /windicss|node_modules/
+            exclude: /tailwindcss|node_modules/
         })
     ],
     resolve: {

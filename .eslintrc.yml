@@ -32,6 +32,7 @@ rules:
         - error
         - never
     vue/no-multiple-template-root: off
+    vue/multi-word-component-names: off
 ignorePatterns:
     - '.eslintrc.js'
     - 'postcss.config.js'
