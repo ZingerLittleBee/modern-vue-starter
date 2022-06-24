@@ -14,6 +14,8 @@ Language : [🇺🇸 English](./README.md) | 🇨🇳 简体中文
 ## 简介
 `modern-vue-starter` 是一个现代化的 vue 工程模版
 
+![overview](https://github.com/ZingerLittleBee/modern-vue-starter/blob/main/snapshot/overview.png)
+
 ## 特点
 - 够快 (`Vite`)
 - 够小 (`Rollup`, `Cssnano`)

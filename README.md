@@ -14,6 +14,8 @@ Language : 🇺🇸 English | 🇨🇳 [简体中文](./README.zh-CN.md)
 ## Overview
 `modern-vue-starter` is a modern Vue engineering template
 
+![overview](https://github.com/ZingerLittleBee/modern-vue-starter/blob/main/snapshot/overview.png)
+
 ## Features
 - Fast (`Vite`)
 - Small (`Rollup`, `Cssnano`)
