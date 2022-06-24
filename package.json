@@ -57,16 +57,6 @@
     "vitest": "0.15.1",
     "vue-tsc": "0.37.9"
   },
-  "lint-staged": {
-    "**/*.{js,jsx,tsx,ts}": [
-      "npm run lint:script",
-      "git add ."
-    ],
-    "**/*.css": [
-      "npm run lint:style",
-      "git add ."
-    ]
-  },
   "config": {
     "commitizen": {
       "path": "git-cz"

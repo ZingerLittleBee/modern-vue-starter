@@ -1,0 +1,4 @@
+{
+    "!(*dist)/*.{js,jsx,tsx,ts}": ["npm run lint:script", "git add ."],
+    "**/*.css": ["npm run lint:style", "git add ."]
+}

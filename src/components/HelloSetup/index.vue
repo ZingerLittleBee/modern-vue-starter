@@ -6,10 +6,10 @@ const count = ref(0)
 </script>
 
 <template>
-    <div>
-        <div>Hello Setup</div>
-        <p>
-            <span>current count: </span>
+    <div class="setup">
+        <div class="h1">Hello Setup</div>
+        <p class="mb-2">
+            <span>count: </span>
             <span class="underline decoration-sky-500">{{ count }}</span>
         </p>
         <button class="btn" @click="() => count++">
@@ -19,7 +19,7 @@ const count = ref(0)
 </template>
 
 <style scoped>
-.btn {
-    @apply py-2 px-4 rounded text-white bg-violet-500 hover:bg-violet-600 active:bg-violet-700 focus:outline-none focus:ring focus:ring-violet-300;
+.setup {
+    @apply flex flex-col justify-center items-center;
 }
 </style>

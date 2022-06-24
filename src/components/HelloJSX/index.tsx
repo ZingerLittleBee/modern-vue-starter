@@ -1,18 +1,22 @@
 import { defineComponent, ref } from 'vue'
+import styles from './index.module.css'
+import ClickIcon from '~icons/bi/arrow-through-heart-fill'
 
 const HelloJSX = defineComponent({
     name: 'HelloJSX',
     setup() {
         const count = ref(0)
         return () => (
-            <div>
-                <div>Hello JSX</div>
-                <div>{count.value}</div>
+            <div class={styles.container}>
+                <div class="h1">Hello JSX</div>
+                <p class="mb-2">
+                    <span>count: </span>
+                    <span class="overline decoration-sky-500">{count.value}</span>
+                </p>
                 <button class="btn" onClick={() => count.value++}>
                     <span class="flex flex-row justify-center items-center space-x-2">
-                        {' '}
-                        <click-icon />
-                        Click Me{' '}
+                        <ClickIcon />
+                        Click Me
                     </span>
                 </button>
             </div>
