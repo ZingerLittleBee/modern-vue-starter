@@ -4,11 +4,17 @@ import ClickIcon from '~icons/bi/arrow-through-heart-fill'
 
 const HelloJSX = defineComponent({
     name: 'HelloJSX',
-    setup() {
+    props: {
+        msg: {
+            type: String,
+            required: true
+        }
+    },
+    setup(props) {
         const count = ref(0)
         return () => (
             <div class={styles.container}>
-                <div class="h1">Hello JSX</div>
+                <div class="h1">{props.msg}</div>
                 <p class="mb-2">
                     <span>count: </span>
                     <span class="overline decoration-sky-500">{count.value}</span>

@@ -2,12 +2,16 @@
 import { ref } from 'vue'
 import ClickIcon from '~icons/ic/twotone-ads-click'
 
+const props = defineProps<{
+    msg: string
+}>()
+
 const count = ref(0)
 </script>
 
 <template>
     <div class="setup">
-        <div class="h1">Hello Setup</div>
+        <div class="h1">{{ props.msg }}</div>
         <p class="mb-2">
             <span>count: </span>
             <span class="underline decoration-sky-500">{{ count }}</span>

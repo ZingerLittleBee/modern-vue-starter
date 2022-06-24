@@ -7,8 +7,8 @@ import HelloJSX from '@/components/HelloJSX'
     <div class="app">
         <div class="app__title">modern-vue-starter</div>
         <div class="app__content">
-            <HelloSetup />
-            <HelloJSX />
+            <HelloSetup msg="Hello Setup" />
+            <HelloJSX msg="Hello JSX" />
         </div>
     </div>
 </template>

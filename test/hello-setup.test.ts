@@ -6,7 +6,11 @@ import HelloSetup from '../src/components/HelloSetup/index.vue'
 test('mount hello jsx component', async () => {
     expect(HelloSetup).toBeTruthy()
 
-    const wrapper = mount(HelloSetup)
+    const wrapper = mount(HelloSetup, {
+        props: {
+            msg: 'Hello Setup'
+        }
+    })
 
     expect(wrapper.text()).toContain('Hello Setup')
     // https://vitest.dev/guide/snapshot.html

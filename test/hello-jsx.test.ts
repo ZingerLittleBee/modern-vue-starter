@@ -6,7 +6,11 @@ import HelloJSX from '../src/components/HelloJSX'
 test('mount hello jsx component', async () => {
     expect(HelloJSX).toBeTruthy()
 
-    const wrapper = mount(HelloJSX)
+    const wrapper = mount(HelloJSX, {
+        props: {
+            msg: 'Hello JSX'
+        }
+    })
 
     expect(wrapper.text()).toContain('Hello JSX')
     // https://vitest.dev/guide/snapshot.html
