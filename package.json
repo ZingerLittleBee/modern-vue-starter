@@ -20,7 +20,7 @@
     "@amatlash/vite-plugin-stylelint": "1.2.0",
     "@commitlint/cli": "17.0.3",
     "@commitlint/config-conventional": "17.0.3",
-    "@iconify/json": "2.1.71",
+    "@iconify/json": "2.1.72",
     "@types/node": "17.0.43",
     "@typescript-eslint/eslint-plugin": "5.30.4",
     "@typescript-eslint/parser": "5.30.4",
