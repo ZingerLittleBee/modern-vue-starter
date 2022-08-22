@@ -43,7 +43,7 @@
     "postcss-html": "1.5.0",
     "prettier": "2.7.1",
     "rollup": "2.77.2",
-    "stylelint": "14.9.1",
+    "stylelint": "14.11.0",
     "stylelint-config-prettier": "9.0.3",
     "stylelint-config-recess-order": "3.0.0",
     "stylelint-config-recommended-vue": "1.4.0",
