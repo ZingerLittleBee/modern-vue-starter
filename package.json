@@ -55,7 +55,7 @@
     "vite": "3.0.9",
     "vite-plugin-eslint": "1.7.0",
     "vitest": "0.22.1",
-    "vue-tsc": "0.39.4"
+    "vue-tsc": "0.40.2"
   },
   "config": {
     "commitizen": {
