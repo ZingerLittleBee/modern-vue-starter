@@ -30,7 +30,7 @@
     "autoprefixer": "10.4.8",
     "c8": "7.12.0",
     "commitlint": "17.0.3",
-    "cssnano": "5.1.12",
+    "cssnano": "5.1.15",
     "eslint": "8.23.0",
     "eslint-config-prettier": "8.5.0",
     "eslint-plugin-prettier": "4.2.1",
